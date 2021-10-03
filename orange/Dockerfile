@@ -11,5 +11,5 @@ RUN dpkg --install ./libxcb-util1_0.4.0-1+b1_amd64.deb
 
 RUN conda create --name orange3 -y python=3.8 orange3 
 RUN bash -c "source activate orange3 && pip install Orange3-Text Orange3-ImageAnalytics Orange3-Network Orange-Bioinformatics"
-# RUN bash -c "conda init bash"
-RUN echo 'conda activate orange3' >> /root/.bashrc
+
+COPY ./orange3.desktop /usr/share/applications/orange3.desktop

@@ -161,7 +161,7 @@ var UI = {
         UI.initSetting('port', port);
         UI.initSetting('encrypt', (window.location.protocol === "https:"));
         UI.initSetting('view_clip', false);
-        UI.initSetting('resize', 'off');
+        UI.initSetting('resize', 'remote');
         UI.initSetting('shared', true);
         UI.initSetting('view_only', false);
         UI.initSetting('path', 'websockify');

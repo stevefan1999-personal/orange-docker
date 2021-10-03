@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=orange3
+URL=/usr/share/applications/orange3.desktop
+Icon=/opt/conda/envs/orange3/lib/python3.8/site-packages/Orange/canvas/icons/orange-canvas.svg
