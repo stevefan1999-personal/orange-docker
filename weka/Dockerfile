@@ -8,5 +8,5 @@ RUN apt update \
 
 COPY ./home /opt/home
 COPY ./icons /opt/icons
-
+COPY ./libsvm.jar /usr/share/java
 RUN apt install -y lxterminal
