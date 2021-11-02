@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=orange3
+GenericName=Open-source data visualization, machine learning and data mining toolkit.
+Exec=/opt/conda/envs/orange3/bin/orange-canvas
+Icon=/opt/conda/envs/orange3/lib/python3.8/site-packages/Orange/canvas/icons/orange-canvas.svg
+Terminal=false
+Type=Application
+Categories=Education;Science
+Encoding=UTF-8
